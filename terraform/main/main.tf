@@ -7,10 +7,10 @@ terraform {
    }
 
 # This is the backend config
-#  backend "gcs" {
-#  bucket  = "BUCKET_NAME"
-#   prefix  = "terraform/state"
-#   }
+  backend "gcs" {
+  bucket  = "deepu-backend-bucket-tfstate"
+   prefix  = "terraform/state"
+ }
 
 }
 
