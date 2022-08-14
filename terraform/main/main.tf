@@ -6,6 +6,7 @@ terraform {
     }
    }
 
+# This is the backend config
 #  backend "gcs" {
 #  bucket  = "BUCKET_NAME"
 #   prefix  = "terraform/state"
